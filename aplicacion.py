@@ -36,9 +36,9 @@ def menu():
         nuevo_nombres = input("Digite los nuevos nombres: ")
         nuevo_apellidos = input("Digite los nuevos apellidos: ")
 
-        gestion_personas.agregar_personas("dni", nuevo_dni)
-        gestion_personas.agregar_personas("nombre", nuevo_nombres)
-        gestion_personas.agregar_personas("apellido", nuevo_apellidos)
+        gestion_personas.agregar_personas("dni", "\n" + nuevo_dni)
+        gestion_personas.agregar_personas("nombre", "\n" + nuevo_nombres)
+        gestion_personas.agregar_personas("apellido", "\n" + nuevo_apellidos)
 
     if opcion == 3:
         print("\nPROGRAMA FINALIZADO CON ÉXITO")
