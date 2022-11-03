@@ -43,7 +43,7 @@ def menu():
     if opcion == 3:
         print("\nPROGRAMA FINALIZADO CON ÉXITO")
         return
-
+ 
 def iniciar_sesion(intentos = 0):
     user = input("\nDigite el nombre de usuario: ")
     password = input("Digite la contraseña: ")
